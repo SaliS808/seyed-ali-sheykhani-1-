@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>فرم ورود</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="login-container">
+        <h2>فرم ورود</h2>
+        <form action="/login" method="POST">
+            <div class="input-group">
+                <label for="student-id">شماره دانشجویی:</label>
+                <input type="text" id="student-id" name="student-id" required placeholder="شماره دانشجویی خود را وارد کنید">
+            </div>
+            <div class="input-group">
+                <label for="password">رمز عبور:</label>
+                <input type="password" id="password" name="password" required placeholder="رمز عبور خود را وارد کنید">
+            </div>
+            <button type="submit" class="login-btn">ورود</button>
+        </form>
+    </div>
+</body>
+</html>
